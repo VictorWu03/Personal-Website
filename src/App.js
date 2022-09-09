@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
+import FeatureSection from './components/pages/FeatureSection';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Projects' exact element={<Projects />} />
         <Route path='/Resume' exact element={<Resume />} />
         <Route path='/Contact' exact element={<Contact />} />
+        <Route path='/FeatureSection' exact element={<FeatureSection />} />
       </Routes>
     </Router>
     </>

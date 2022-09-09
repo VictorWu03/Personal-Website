@@ -8,12 +8,15 @@ import { ButtonProject } from './ButtonProject';
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src="/videos/video.mp4" autoPlay loop muted />
+            <video src="/videos/video-3.mp4" autoPlay loop muted />
             <h1>
                 VICTOR WU 
             </h1>
             <p>
-                COMPUTER SCIENCE STUDENT | University of Waterloo
+                Software Engineer | Versa Networks
+            </p>
+            <p>
+                Computer Science Student | University of Waterloo
             </p>
             <div className="hero-btns">
                 <ButtonResume 

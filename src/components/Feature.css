@@ -1,0 +1,27 @@
+.feature {
+    /* background-color: #fff; */
+    /* opacity: .5; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.feature-panel {
+    margin: 30px, 30px, 30px, 30px;
+    opacity: 1;
+}
+
+.feature:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+    opacity: .5;
+}
+
+h1.feature-text {
+    text-decoration: none;
+    color: black;
+}
+
+a.feature-link {
+    text-decoration: none;
+}

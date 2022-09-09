@@ -21,7 +21,7 @@ export const ButtonResume = ({
 
     return (
         <a className='btn-mobile'
-        href={"https://docs.google.com/document/d/1emkgOnnBvm7PyToIsE3QAEQVHgm730VjcmYd1jeNvuw/edit?usp=sharing"} >
+        href="/Resume/" >
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}

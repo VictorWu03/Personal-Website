@@ -14,6 +14,18 @@ function Cards() {
                     <ul className="cards__item">
                         <Carditem 
                         src="images/image1.jpg"
+                        text="Pathfinding Visualizer"
+                        label="Pathfinding Visualizer"
+                        path="https://github.com/VictorWu03/pathfinding-visualizer"
+                        />
+                        <Carditem 
+                        src="images/image1.jpg"
+                        text="Financial Algorithmic Trader"
+                        label="Algorithmic Trader"
+                        path="https://github.com/VictorWu03/Algorithmic-Trader"
+                        />
+                        <Carditem 
+                        src="images/image1.jpg"
                         text="WEATHER APPLICATION"
                         label="Projects"
                         path="https://github.com/VictorWu03/Weather-App" />
@@ -27,12 +39,8 @@ function Cards() {
                         text="GOMOKU GAME"
                         label="Projects"
                         path="https://github.com/VictorWu03/major-project-cs30" />
-                        <Carditem 
-                        src="images/image1.jpg"
-                        text="RESUME"
-                        label="Resume"
-                        path="https://docs.google.com/document/d/1emkgOnnBvm7PyToIsE3QAEQVHgm730VjcmYd1jeNvuw/edit?usp=sharing"
-                        />
+    
+                        
                     </ul>
                 </div>
             </div>

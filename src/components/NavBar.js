@@ -47,9 +47,12 @@ function NavBar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <a href='https://docs.google.com/document/d/1emkgOnnBvm7PyToIsE3QAEQVHgm730VjcmYd1jeNvuw/edit?usp=sharing' className='nav-links' onClick={closeMobileMenu}>
+                            {/* <a href='https://docs.google.com/document/d/1emkgOnnBvm7PyToIsE3QAEQVHgm730VjcmYd1jeNvuw/edit?usp=sharing' className='nav-links' onClick={closeMobileMenu}>
                                 Resume
-                            </a>
+                            </a> */}
+                            <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
+                                Resume
+                            </Link>
                         </li>
                         {/* <li className='nav-item'>
                             <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
